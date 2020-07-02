@@ -28,13 +28,13 @@
 			<div class="menu-container">
 				<div class="grt-menu-row">
 					<div class="grt-menu-logo">
-						<a href="#"  class="grt-logo"><img src="Images/logo/logo.png"></a>
+						<a href="../../NutraFit/index1.html"  class="grt-logo"><img src="../Images/logo/logo.png"></a>
 					</div>
 					<div class="grt-menu-right">
 						<nav>
 							<button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
 							<ul class="grt-menu">
-								<li><a href="index1.html"><i class="icon ion-md-home"></i> Home</a></li>
+								<li><a href="../../NutraFit/index1.html"><i class="icon ion-md-home"></i> Home</a></li>
 								<li class="grt-dropdown"><a><i class="icon ion-md-fitness"></i> Exercise</a>
 									<ul class="grt-dropdown-list">
 										<li><a href="../chest.html">Chest Wokout</a></li>
@@ -43,9 +43,9 @@
 										<li><a href="../shoulder.html">Shoulder Workout</a></li>
 										<li><a href="../arms.html">Arm Workout</a></li>
 									</ul></li>
-									<li><a href="../yoga.html"><label><i class="icon ion-md-body"> </i> Yoga</label></a></li>
+									<li><a href="../Yoga/yoga.html"><label><i class="icon ion-md-body"> </i> Yoga</label></a></li>
 									<li><a href="../diet/diet/diet.html"><label><i class="icon ion-md-pizza"></i> Diet</label></a></li>
-									<li><a href=".././shop/shop.php"><label><i class="icon ion-md-cart"></i> Shop</label></a></li>
+									<li><a href="../shop/shop.php"><label><i class="icon ion-md-cart"></i> Shop</label></a></li>
 										<li class="grt-dropdown"><a><i class="icon ion-md-people"></i> My Account</a>
 									<ul class="grt-dropdown-list">
 										<li><a href="../SignIn/signin.html">Sign In</a></li>
@@ -53,7 +53,7 @@
 									
 									</ul>
 								</li>
-								<li class="active"><a href="contact.html"><i class="icon ion-md-contacts"></i> contact</a></li>								
+								<li class="active"><a href="contact.php"><i class="icon ion-md-contacts"></i> contact</a></li>								
 							</ul>
 					</div>
 				</div>
@@ -88,11 +88,11 @@
 		<div class="row">
 			<div class="col span-1-of-2">
 				<ul class="footer-nav">
-					<li><a href="../aboutus.html"><h4><i class="icon ion-md-person"></i> About us</h4></a></li>
-					<li><a href="../shop/shop.html"><h4><i class="icon ion-md-cart"></i> Shop</h4></a></li>
-					<li><a href="../contact/contact.php"><h4><i class="icon ion-md-people"></i> Contact</h4></a></li>
+					<li><a href="../../NutraFit/aboutus/aboutus.html"><h4><i class="icon ion-md-person"></i> About us</h4></a></li>
+					<li><a href="../shop/shop.php"><h4><i class="icon ion-md-cart"></i> Shop</h4></a></li>
+					<li><a href="../../NutraFit/Contact/contact.php"><h4><i class="icon ion-md-people"></i> Contact</h4></a></li>
 					<li><a href="../diet/diet/diet.html"><h4><i class="icon ion-md-pizza"></i> Diet</h4></a></li>
-					<li><a href="../yoga.html"><h4><i class="icon ion-md-body"></i> Yoga</h4></a></li>
+					<li><a href="../../NutraFit/yoga/yoga.html"><h4><i class="icon ion-md-body"></i> Yoga</h4></a></li>
 					</ul>
 		</div>
 		</div>

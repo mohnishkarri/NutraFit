@@ -33,7 +33,7 @@
 			<div class="menu-container">
 				<div class="grt-menu-row">
 					<div class="grt-menu-logo">
-						<a href="#"  class="grt-logo"><img src="../Images/logo/logo.png"></a>
+						<a href="../index1.html"  class="grt-logo"><img src="../Images/logo/logo.png"></a>
 					</div>
 					<div class="grt-menu-right">
 						<nav>
