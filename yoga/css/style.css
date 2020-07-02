@@ -1,0 +1,94 @@
+*{
+	margin:10px;
+	padding:10px;
+}
+
+body{
+     background-color:LightBlue;
+     color:Red;
+
+
+     font-family: Arial,helvatica,sans-serif;
+     font-weight:normal;
+     line-height:1.6em;
+     font-size:15px; 
+     line-height:1.6em;
+     border-right:5px DarkGreen solid;
+     border-top:5px Light Green solid;
+
+}
+
+
+h{
+   font-family:Tahoma;
+   font-weight:800;
+   font-style:italic;
+   color:Purple;
+   font-size:40px;
+   font-weight:bold;
+   text-transform:uppercase; 
+   word spacing:1em; 
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.image 
+{
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+
+.text
+ {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.overlayFade
+{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: #ff946bbd;
+}
+.overlay 
+{
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #008cba;
+}
+.container:hover .overlay,.container:hover .overlayFade 
+{
+    opacity: 1;
+}
+
+.overlayLeft{
+    height: 100%;
+    width:0;
+    top:0;
+    left:0;
+    background-color: #00b1ba;
+}
+}
+.container:hover .overlayLeft 
+{
+    height: 100%;
+    width: 100%;
+}
+
+.container:hover .overlayLeft ,.container:hover 
+ {
+    width: 100%;

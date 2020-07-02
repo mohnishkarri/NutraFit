@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>SignUp</title>
+		<link rel="stylesheet" type="text/css" href="signup_style.css">   	
+	</head>
+	
+	<body>
+		<div class="sign_up">
+			<form method="post" action="insert.php">
+				<centre><h1>Sign Up</h1></centre><br><br>
+					<hr>
+						<input type ="text" name ="fname" id ="fname" placeholder ="First Name" required>
+						<input type ="text" name ="lname" id ="lname" placeholder ="Last Name" required><br><br>
+						<input type ="email" name ="email" id ="email" placeholder ="Email ID" required></h1><br><br>
+						<input type ="text" name ="username" id ="username" placeholder ="Username" required><br><br>
+						<input type ="password" name ="pwd" id ="pwd" placeholder ="Password" required>
+						<input type ="password" name ="RePwd" id ="RePwd" placeholder ="Confirm Password" required><br><br>
+							<div class="date_of_birth">
+								<span style="font-size:18px";>Date of Birth</span><br>
+									<input type="date" name="DateofBirth" >
+							</div><br>
+						<b>Gender</b><br><br><label><input type="radio" name="gender" value="Male"required>Male</label>
+						<label><input type="radio" name="gender" value="male"required>Female</br><br><label></label>
+						<input type="submit" value="Sign Up" onclick=checkdata() name="signupsubmit"><br><br>
+						<div class="signin">
+						<center><a class="button" href = "../SignIn/signin.html">Sign In</a></center>
+						<!--<a href="signin.html"><button type="button">Text of Some Page</button></a>-->
+						</div>
+					</hr>
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript">
+        function checkdata(){
+            var fn = document.fr.fname.value;
+            var ln = document.fr.lname.value;
+			var em = document.fr.email.value;
+			var us = document.fr.username.value;
+			var g = document.fr.gender.value;
+            if(fn==""||ln==""||em==""||us==""||pwd==""||rpwd==""||m==""||d==""||y==""||g==""){
+
+            alert("Enter all of the fields");
+        
+            }
+
+            else{
+
+                if(pwd.length<=7){
+
+                    alert("The entered password must have length grater than 8 characters")
+
+                }
+				else if(rpwd.length<=7)
+					alert("The entered password must have length grater than 8 characters"))
+				
+            }
+        }
+        </script>
+</html>

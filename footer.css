@@ -1,0 +1,52 @@
+footer{
+    background-color: #333;
+    padding: 30px;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.footer-nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li :last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+    text-decoration:none ;
+    color:rgb(0,161,182);
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+footer p{
+    color: #888;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.right-footer{
+    float: right;
+}
+
+.col-md{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; }
+
+    #map {
+        float:right;
+        height:150px;  /* The height is 400 pixels */
+        width: 250px;  /* The width is the width of the web page */
+       }

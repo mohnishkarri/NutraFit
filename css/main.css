@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(67, 64, 63);
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(10, 255, 0, 0.65);
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+   color: #0054a5;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+   color: #000000;
+}
+
+a:hover, a:active {
+   outline: 0;
+}

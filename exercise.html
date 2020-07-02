@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <meta charset='utf-8'>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/css/navigation.css">
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='#'><span>Home</span></a></li>
+   <li class='active has-sub'><a href='/Exercise/exercise.html'><span>Exercise</span></a>
+      <ul>
+         <li class='has-sub'><a href=''><span>Chest</span></a>
+            <ul>
+               <li><a href='#'><span>Chest Fly</span></a></li>
+               <li class='last'><a href='#'><span>Bench Press </span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Biceps</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>About</span></a></li>
+   <li class='last'><a href='#'><span>Shop</span></a></li>
+</ul>
+</div>
+<style>
+    
+.container {
+  position:relative;
+  width: 100%;
+}
+
+.image {
+  display: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.53);
+ 
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(5, 172, 127);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    text-decoration: none;
+
+}
+    
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
+    /* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+    
+    
+    
+</head>
+    <br><br>
+<body style="background-color: rgba(67, 5, 167, 0.79)">
+<div class="row">
+  <div class="column">
+<div class="container">
+    
+     <img src="/Exercise/images/Chest/chest_logo.jpg" alt="Avatar" class="image" >
+  <div class="overlay">
+      <a class="text" href="/Exercise/bench_press.html">Chest Workout</a>
+  </div>
+</div>
+    </div>
+
+  <div class="column">
+    <div class="container">
+  <img src="/Exercise/images/bicep1_logo.png" alt="Avatar" class="image">
+  <div class="overlay">
+     <a class="text" href="/Exercise/">Bicep Workout</a></div>
+  </div>
+</div>
+    </div>
+
+     <div class="column">
+    <div class="container">
+  <img src="/Exercise/images/back_logo.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <a class="text" href="lat_raise.html">Back Workout</a></div>
+  </div>
+</div>
+    </div>
+    
+     <div class="column">
+    <div class="container">
+  <img src="/Exercise/images/lat_pulldown.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+   <a class="text" href="/Exercise/">Bicep Workout</a></div>
+  </div>
+</div>
+    </div>
+    
+</body>
+</html>
