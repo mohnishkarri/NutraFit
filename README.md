@@ -7,7 +7,7 @@ Fell free to let us know the new features and content that can be added to impor
 To make this project be executable on your machine then follow the GUIDELINCE.md file in the main directory of the project.
 
 Programming languages used:
-HTML ( Hyper Text Markup Language) 
-JS   (JavaScript)
-CSS  (Cascading Style Sheets)  
-PHP  (Hypertext Preprocessor)
+HTML ( Hyper Text Markup Language), 
+JS   (JavaScript), 
+CSS  (Cascading Style Sheets),   
+PHP  (Hypertext Preprocessor), 
