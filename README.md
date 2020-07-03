@@ -10,4 +10,4 @@ Programming languages used:
 HTML ( Hyper Text Markup Language), 
 JS   (JavaScript), 
 CSS  (Cascading Style Sheets),   
-PHP  (Hypertext Preprocessor), 
+PHP  (Hypertext Preprocessor)
